@@ -1,0 +1,12 @@
+{
+  "name": "gather-events",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env events.mjs",
+    "upload": "node --env-file=.env upload-registrations.mjs"
+  },
+  "dependencies": {
+    "@payloadcms/sdk": "3.92.1"
+  }
+}
